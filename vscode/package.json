@@ -1,0 +1,23 @@
+{
+  "name": "specscript-vscode",
+  "displayName": "SpecScript",
+  "description": "Language support for SpecScript files",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [{
+      "id": "specscript",
+      "aliases": ["SpecScript", "specscript"],
+      "extensions": [".spec"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "specscript",
+      "scopeName": "source.spec",
+      "path": "./syntaxes/spec.tmLanguage.json"
+    }]
+  }
+} 

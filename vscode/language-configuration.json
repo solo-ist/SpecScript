@@ -1,0 +1,20 @@
+{
+  "comments": {
+    "lineComment": "#"
+  },
+  "brackets": [
+    ["[", "]"]
+  ],
+  "autoClosingPairs": [
+    ["[", "]"],
+    ["\"", "\""]
+  ],
+  "surroundingPairs": [
+    ["[", "]"],
+    ["\"", "\""]
+  ],
+  "indentationRules": {
+    "increaseIndentPattern": "^\\s*(Type|Properties|Workflow|Steps|Rules):",
+    "decreaseIndentPattern": "^\\s*$"
+  }
+} 

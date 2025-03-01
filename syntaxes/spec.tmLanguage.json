@@ -1,0 +1,24 @@
+{
+  "name": "SpecScript",
+  "scopeName": "source.spec",
+  "fileTypes": ["spec"],
+  "patterns": [
+    {
+      "name": "keyword.control.spec",
+      "match": "\\b(Type|Properties|Workflow|Steps|Rules|When|Require|Apply)\\b"
+    },
+    {
+      "name": "storage.modifier.spec",
+      "match": "\\b(required|optional|unique|one of|many of)\\b"
+    },
+    {
+      "name": "string.quoted.double.spec",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "punctuation.definition.array.spec",
+      "match": "\\[|\\]"
+    }
+  ]
+} 
